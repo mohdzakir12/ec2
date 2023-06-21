@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "ec2-tfstate-zak"
-    key    = "ec2/terraform.tfstate"
+    key    = "ec2/terraform.tfstate2"
     region = "us-east-1"
     encrypt = true
   }
